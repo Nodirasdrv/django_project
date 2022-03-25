@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>You will see phones here</h1>
+
+
+						<div>
+							{% for phone in phones %}
+
+								<h3>Phone: {{phone.title}}</h3>
+                                <h3>Detail: {{phone.detail}}</h3>
+                                <h3>Price: {{phone.kg_price}}</h3>
+                                <h3>Price: {{phone.usd_price}}</h3>
+
+
+
+
+						</div>
+{%endfor%}
+
+
+</body>
+</html>
